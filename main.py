@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Initialize bot and dispatcher
 load_dotenv(find_dotenv())
-bot = Bot(token=os.getenv('TOKEN'),parse_mode=types.ParseMode.HTML)
+bot = Bot(token=os.getenv('6851650405:AAFgCvAE6POsI_x6BJ_7F7hDjhB-E6e9OqM'),parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot,storage=storage)
 
 
